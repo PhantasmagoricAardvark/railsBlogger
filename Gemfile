@@ -38,7 +38,7 @@ gem "paperclip"
 # gem 'capistrano-rails', group: :development
 
 group :production do
-  gem 'pg', "~> 0.20"
+  gem 'pg'
 end
 
 group :development, :test do
